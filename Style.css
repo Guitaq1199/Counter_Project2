@@ -1,15 +1,29 @@
-
+body{
+    background-color: #D6DBDF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
 #titulo{
     color: black;
     font-family: 'Courier New', Courier, monospace;
 }
-#central{
+#contenido{
     width: 50%;
     height: 35%;
-    background-color: #AEB6BF;
-    margin-top: 15%;
-    margin-left: 25%;
-    position:fixed;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#central{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .btn{
@@ -19,12 +33,9 @@
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     border-radius: 3px 3px 3px 3px;
-    position: fixed;
+    height: 20%;
 }
 .btn:hover {
     background-color: #5D6D7E; /* Green */
@@ -35,20 +46,10 @@
     height: auto;
     display: inline-block;
   }
-#incrementar{
-    margin-top: 7%;
-    margin-left: -15%;
-}
-#decrementar{
-    margin-top: 7%;
-    margin-left: -5%;
-}
-#reiniciar{
-    margin-top: 7%;
-    margin-left: 5%;
-}
+
 #contador{
-    color:white;
-    font-size: 30px;
+    color:blue;
+    font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
+    height: 20vh;
 }

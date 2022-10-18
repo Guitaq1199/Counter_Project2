@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 100vh;
+    height: 90vh;
 }
 #titulo{
     color: black;
@@ -11,7 +11,7 @@ body{
 }
 #contenido{
     width: 50%;
-    height: 35%;
+    height: 5%;
     background-color: transparent;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body{
 }
 #central{
     width: 100%;
-    height: 100%;
+    height: 0%;
     background-color: transparent;
     display: flex;
     justify-content: center;

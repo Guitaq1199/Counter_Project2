@@ -1,0 +1,54 @@
+
+#titulo{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#central{
+    width: 50%;
+    height: 35%;
+    background-color: #AEB6BF;
+    margin-top: 15%;
+    margin-left: 25%;
+    position:fixed;
+    
+}
+.btn{
+    background-color: white;
+    color: black;
+    border: 2px solid #E5E7E9;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+    position: fixed;
+}
+.btn:hover {
+    background-color: #5D6D7E; /* Green */
+    color: white;
+}
+.space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
+  }
+#incrementar{
+    margin-top: 7%;
+    margin-left: -15%;
+}
+#decrementar{
+    margin-top: 7%;
+    margin-left: -5%;
+}
+#reiniciar{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+#contador{
+    color:white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}

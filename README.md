@@ -1,3 +1,3 @@
 # Counter_Project2
 
-##Segundo proyecto Level UP
+Segundo proyecto Level UP
